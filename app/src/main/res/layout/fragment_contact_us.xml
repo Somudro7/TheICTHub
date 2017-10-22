@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_bright"
+    android:orientation="vertical"
+    tools:context="com.example.nizamuddinshamrat.theicthub.ContactUs">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+        <LinearLayout
+            android:layout_width="170dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <Button
+                android:id="@+id/callcion"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:background="@drawable/callicon"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="50dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Call Us"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:textSize="30dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="170dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <Button
+                android:id="@+id/action_send_email"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:background="@drawable/emailicon"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="50dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Mail Us"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:textSize="30dp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="10dp"
+        >
+        <LinearLayout
+            android:layout_width="170dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <Button
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:background="@drawable/facebook"
+                android:id="@+id/facebook"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="20dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Page"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:textSize="30dp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="170dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <Button
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:background="@drawable/map"
+                android:id="@+id/map"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="20dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Map"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:textSize="30dp"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
